@@ -18,8 +18,8 @@ st.markdown("---")
 col1, col2 = st.columns([1,2], gap="small")
 
 with col1:
-    if os.path.exists("photo.png"):
-        st.image("photo.png", width=300)
+    if os.path.exists("Portfolio_App/photo.png"):
+        st.image("Portfolio_App/photo.png", width=300)
     else:
         st.markdown("<div class='placeholder-image'>📸 Profile Photo</div>", unsafe_allow_html=True)
 
