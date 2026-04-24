@@ -26,37 +26,37 @@ projects = [
         "title": "Female Dormitory Management System",
         "desc": "A comprehensive management system for tracking and managing the operations of a female dormitory. This project helped me learn database design and system architecture.",
         "tech": "Microsoft Access, MySQL",
-        "image": "Portfolio_App/images/female.jpeg"
+        "image": "Portfolio_app/images/female.jpeg"
     },
     {
         "title": "StudyMate Homework Tracker",
         "desc": "A simple application to help students track and manage their homework assignments. Perfect for keeping organized during school.",
         "tech": "HTML, CSS, JavaScript",
-        "image": "images/studymate.jpeg"
+        "image": "Portfolio_App/images/studymate.jpeg"
     },
     {
         "title": "My Website",
         "desc": "A personal website to showcase my skills and projects. My first venture into web development.",
         "tech": "HTML, CSS, JavaScript",
-        "image": "images/personalsite.png"
+        "image": "Portfolio_App/images/personalsite.png"
     },
     {
         "title": "Bus Data Transfer Demo",
         "desc": "A simulation on how data is transferred across a bus system. An educational project for learning computer architecture.",
         "tech": "HTML5, JavaScript",
-        "image": "images/bus_data_transfer_demo.jpg"
+        "image": "Portfolio_App/images/bus_data_transfer_demo.jpg"
     },
     {
         "title": "Personal Portfolio Website",
         "desc": "A multi-page portfolio website using Streamlit to showcase my skills, projects, and contact information. You're viewing it right now!",
         "tech": "Python, Streamlit",
-        "image": "images/portfolio.png"
+        "image": "Portfolio_App/images/portfolio.png"
     },
     {
         "title": "GDF Session 5",
         "desc": "A project created during the GDF Session 5 workshop.",
         "tech": "Picsart, Ibispaint",
-        "image": "images/GDF S5.jpeg"
+        "image": "Portfolio_App/images/GDF S5.jpeg"
     }
     
 ]
@@ -102,7 +102,7 @@ cert_col1, cert_col2, cert_col3= st.columns(3, gap="small")
 
 with cert_col1:
     try:
-        st.image("images/IMG1.png", use_container_width=True)
+        st.image("Portfolio_App/images/IMG1.png", use_container_width=True)
         st.caption("Python Essentials 1")
     except:
         st.markdown("""
@@ -114,7 +114,7 @@ with cert_col1:
 
 with cert_col2:
     try:
-        st.image("images/IMG2.png", use_container_width=True)
+        st.image("Portfolio_App/images/IMG2.png", use_container_width=True)
         st.caption("Python for Beginners")
     except:
         st.markdown("""
@@ -126,7 +126,7 @@ with cert_col2:
 
 with cert_col3:
     try:
-        st.image("images/IMG3.png", use_container_width=True)
+        st.image("Portfolio_App/images/IMG3.png", use_container_width=True)
         st.caption("Web Designing Basics")
     except:
         st.markdown("""
@@ -138,7 +138,7 @@ with cert_col3:
 cert_col4, cert_col5, cert_col6= st.columns(3, gap="small")
 with cert_col4:
     try:
-        st.image("images/IMG4.png", use_container_width=True)
+        st.image("Portfolio_App/images/IMG4.png", use_container_width=True)
         st.caption("Software Testing")
     except:
         st.markdown("""
@@ -150,7 +150,7 @@ with cert_col4:
 
 with cert_col5:
     try:
-        st.image("images/IMG5.png", use_container_width=True)
+        st.image("Portfolio_App/images/IMG5.png", use_container_width=True)
         st.caption("Project Management 101")
     except:
         st.markdown("""
@@ -162,7 +162,7 @@ with cert_col5:
 
 with cert_col6:
     try:
-        st.image("images/gdf_cert.png", use_container_width=True)
+        st.image("Portfolio_App/images/gdf_cert.png", use_container_width=True)
         st.caption("GDF Session 5")
     except:
         st.markdown("""
