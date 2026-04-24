@@ -15,8 +15,8 @@ st.markdown("""
 col_photo, col_intro = st.columns([1, 2], gap="large")
 
 with col_photo:
-    if os.path.exists("photo.png"):
-        st.image("photo.png", use_container_width=True)
+    if os.path.exists("Portfolio_App/photo.png"):
+        st.image("Portfolio_App/photo.png", use_container_width=True)
     else:
         st.markdown("""
         <div class="placeholder-image">
