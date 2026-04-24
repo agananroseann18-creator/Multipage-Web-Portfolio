@@ -121,5 +121,3 @@ with st.expander("💭 My Favorite Quote"):
     """, unsafe_allow_html=True)
 
 st.markdown("---")
-
-st.write("@copyright 2026 Rose-ann Aganan. Built using Python & Streamlit.")
