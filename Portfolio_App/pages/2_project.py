@@ -68,8 +68,8 @@ for project in projects:
         image_path = project.get("image", "")
         if image_path:
             image_path = image_path.replace('\\', '/')
-            if not os.path.isabs(image_path) and not image_path.startswith("images/"):
-                image_path = os.path.join("images", image_path)
+            if not os.path.isabs(image_path) and not image_path.startswith("Portfolio_App/images/"):
+                image_path = os.path.join("Portfolio_App/images", image_path)
 
         if image_path and os.path.exists(image_path):
             st.image(image_path, use_container_width=True)
