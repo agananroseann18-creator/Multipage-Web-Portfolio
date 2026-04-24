@@ -26,7 +26,7 @@ projects = [
         "title": "Female Dormitory Management System",
         "desc": "A comprehensive management system for tracking and managing the operations of a female dormitory. This project helped me learn database design and system architecture.",
         "tech": "Microsoft Access, MySQL",
-        "image": "images/female.jpeg"
+        "image": "images":Portfolio_App/female.jpeg"
     },
     {
         "title": "StudyMate Homework Tracker",
